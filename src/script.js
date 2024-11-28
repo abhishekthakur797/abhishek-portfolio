@@ -34,14 +34,14 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   // Example: Dynamically add a new image
-  addNewImage("banners/2_Travel GuruJi Banner.jpg");
-  addNewImage("banners/3_FRAN JONAS BIOGRAPHY.jpg");
-  addNewImage("banners/4_Namma Yatri refferal code.jpg");
-  addNewImage("banners/5_TOP 50 FANTASY APPS.jpg");
-  addNewImage("banners/6_29 INDIA vs ENGLAND CWC23.jpg");
-  addNewImage("banners/7_Liton Das BIOGRAPHY.jpg");
-  addNewImage("banners/8_Sachin Tendulkar Awards copy.jpg");
-  addNewImage("banners/9_List Of Top 10 Telegram Channel For Online Deals.jpg");
-  addNewImage("banners/10_KKR SQUAD 2023.jpg");
-  addNewImage("banners/11_Google Pay Referral Code Nr9U6.jpg");
+  addNewImage("img/banners/2_Travel GuruJi Banner.jpg");
+  addNewImage("img/banners/4_Namma Yatri refferal code.jpg");
+  addNewImage("img/banners/5_TOP 50 FANTASY APPS.jpg");
+  addNewImage("img/banners/6_29 INDIA vs ENGLAND CWC23.jpg");
+  addNewImage("img/banners/8_Sachin Tendulkar Awards copy.jpg");
+  addNewImage(
+    "img/banners/9_List Of Top 10 Telegram Channel For Online Deals.jpg"
+  );
+  addNewImage("img/banners/10_KKR SQUAD 2023.jpg");
+  addNewImage("img/banners/11_Google Pay Referral Code Nr9U6.jpg");
 });
