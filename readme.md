@@ -38,8 +38,8 @@ Here are some visuals of the portfolio:
 ### 📱 Mobile View
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="./src/img/readme%20files/Mobile_SS1.png" alt="MOBILE 1" style="width: 45%;"/>
-  <img src="./src/img/readme%20files/Mobile_SS2.png" alt="MOBILE 2" style="width: 45%;"/>
+  <img src="./src/img/readme%20files/mobile-ss-new.png" alt="MOBILE 1" style="width: 45%;"/>
+  <img src="./src/img/readme%20files/mobile-ss2-new.png" alt="MOBILE 2" style="width: 45%;"/>
 </div>
 
 ## 🚀 How to Use
