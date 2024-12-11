@@ -45,3 +45,22 @@ document.addEventListener("DOMContentLoaded", () => {
   addNewImage("img/banners/10_KKR SQUAD 2023.jpg");
   addNewImage("img/banners/11_Google Pay Referral Code Nr9U6.jpg");
 });
+
+// script for mobile navbar
+const navMobile = document.getElementById("nav-mobile");
+const navCut = document.getElementById("nav-cut");
+const showMenu = document.getElementById("show-menu");
+
+navCut.addEventListener("click", function navHide() {
+  if (navMobile.classList.contains("flex")) {
+    navMobile.classList.remove("flex");
+    navMobile.classList.add("hidden");
+  }
+});
+
+showMenu.addEventListener("click", function navShow() {
+  if (navMobile.classList.contains("hidden")) {
+    navMobile.classList.remove("hidden");
+    navMobile.classList.add("flex");
+  }
+});

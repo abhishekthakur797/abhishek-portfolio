@@ -16,15 +16,19 @@
     />
   </head>
 
-  <body class="font-poppins text-white scroll-smooth">
+  <body class="font-poppins relative text-white scroll-smooth">
     <nav
       class="bg-gray-700/50 w-full flex justify-evenly lg:justify-around items-center py-2 fixed top-0 z-50 backdrop-blur-sm"
     >
       <a href="#home" class="text-orange-500 font-bold text-xl">
         &lt;<span class="text-white">Home</span>/&gt;
       </a>
-
-      <div class="nav-right flex flex-row gap-6">
+      <!--! Navbar for mobile-->
+      <div
+        id="nav-mobile"
+        class="nav-mobile absolute hidden w-screen right-0 top-0 bg-orange-500 z-50 flex-col items-center py-3 gap-4"
+      >
+        <i id="nav-cut" class="fa-solid fa-xmark"></i>
         <a href="#home" class="hover:text-orange-500 hover:duration-200"
           >Home</a
         >
@@ -34,6 +38,31 @@
         <a href="#projects" class="hover:text-orange-500 hover:duration-200"
           >Projects</a
         >
+      </div>
+      <!--! Navbar for Desktop-->
+      <div class="nav-right flex flex-row gap-6">
+        <a
+          class="hidden md:block lg:block"
+          href="#home"
+          class="hover:text-orange-500 hover:duration-200"
+          >Home</a
+        >
+        <a
+          class="hidden md:block lg:block"
+          href="#skill"
+          class="hover:text-orange-500 hover:duration-200"
+          >skill</a
+        >
+        <a
+          class="hidden md:block lg:block"
+          href="#projects"
+          class="hover:text-orange-500 hover:duration-200"
+          >Projects</a
+        >
+
+        <div id="show-menu" class="block md:hidden lg:hidden">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </div>
     </nav>
     <!--! Main-container-->
