@@ -64,3 +64,14 @@ showMenu.addEventListener("click", function navShow() {
     navMobile.classList.add("flex");
   }
 });
+
+// Hide navbar when a link is clicked
+const navLinks = navMobile.querySelectorAll("a");
+navLinks.forEach((link) => {
+  link.addEventListener("click", function () {
+    if (navMobile.classList.contains("flex")) {
+      navMobile.classList.remove("flex");
+      navMobile.classList.add("hidden");
+    }
+  });
+});
